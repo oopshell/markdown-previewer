@@ -34,4 +34,4 @@ jobs:
         AWS_REGION: ap-southeast-2
       run: |
         aws s3 sync dist/ s3://my-markdown-previewer
-        aws cloudfront create-invalidation --distribution-id E15UWFDMQZTBGJ --paths "/*"
+        aws cloudfront create-invalidation --distribution-id E34SUNJVRNTP0R --paths "/*"
